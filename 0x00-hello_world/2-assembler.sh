@@ -1,3 +1,3 @@
 #!bin/bash
-gcc ($CFILE *.c) -s ($CFILE: .c = .o)
+gcc ($CFILE *.c) -s ($CFILE: .c = .s)
 
