@@ -1,3 +1,3 @@
 #!bin/bash
-gcc ($CFILE *.c) -c -o ($CFILE: .c = .o)
+CFILE = main.c && gcc $CFILE -c  ($CFILE: .c = .o)
 
