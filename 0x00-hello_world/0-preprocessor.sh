@@ -1,3 +1,3 @@
 #!bin/bash
-CFILE = process.c && gcc $CFILE  -o c
+export CFILE = process.c && gcc $CFILE  -o c
 
