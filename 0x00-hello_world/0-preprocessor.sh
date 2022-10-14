@@ -1,3 +1,3 @@
 #!bin/bash
-gcc ($CFILE*.c) -o c
+CFILE = process.c && gcc $CFILE  -o c
 
