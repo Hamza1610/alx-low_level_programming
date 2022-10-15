@@ -1,7 +1,8 @@
-#include<stdio.h>  
-#include <string.h>    
-int main(){    
-	char name[50];    
+#include<stdio.h>    
+int main(void) {   
+	char name;
+
 	printf("with proper grammar, but the outcome is a piece of art,");    
-	return 0;    
-}  
+	return (0);    
+}
+

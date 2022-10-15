@@ -1,7 +1,8 @@
-#include<stdio.h>  
-#include <string.h>    
-int main(){    
+#include<stdio.h>
+#include <string.h>
+int main(void) {
+
 	char name = "Programming is like building a multilingual puzzle";    
-	puts("%c",name);  //displays string    
-	return 0;    
+	puts(name);    
+	return (0);    
 }  
