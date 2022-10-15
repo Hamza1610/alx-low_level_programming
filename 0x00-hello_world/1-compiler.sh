@@ -1,3 +1,3 @@
 #!bin/bash
-CFILE = main.c && gcc $CFILE -c  ($CFILE: .c = .o)
+export CFILE=main.c && gcc $CFILE -c  main.o && cat main.o
 
