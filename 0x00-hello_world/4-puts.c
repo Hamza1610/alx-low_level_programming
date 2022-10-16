@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * * Main - Entry point use funtion puts()
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
