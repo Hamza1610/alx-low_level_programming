@@ -1,15 +1,12 @@
-#include<stdio.h>
-#include <string.h>
-
-/* Entry point main and so on
- *
- */
+#include <stdio.h>
+/**
+ *    * main - initialises char variable to store string then prints it using puts
+ *       *
+ *          * Return: void
+ *          */
 int main(void)
 {
-	int *p;
-	char name = "Programming is like building a multilingual puzzle\n";
-
-       	p = &name;	
-	puts(*p);    
-	return (0);    
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
 }  
