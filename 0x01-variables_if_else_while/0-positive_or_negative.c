@@ -2,13 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/*
- * Main - Check a random number with variable n and print n wi
-condition.
- * Return: Always 0 (Success)
+/**
+ * main - Entry point
+  Description: 'the program's description' * Return: Always 0 (Success)
 */
 int main(void)
 {
+	/* declarations here */
 	int n;
 
 	srand(time(0));
