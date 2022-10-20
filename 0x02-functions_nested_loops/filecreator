@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Insert file name"
+read filename
+vi $filename
+./filecreator
