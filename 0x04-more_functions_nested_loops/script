@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Insert File name"
+read filename
+touch $filename
+vi $filename
+./script
