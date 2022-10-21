@@ -2,5 +2,6 @@
 echo "Insert File name"
 read filename
 touch $filename
-vi $filename
+chmod a+x $filename
+la
 ./script
