@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * Create a function with name _isupper()
+ * _isupper -  checks if c is an upercase
  * Return 1 if "c" is uppercase
  * returns 0 otherwise
+ * c - is an int variable passed into the function _isupper()
 */
 int _isupper(int c)
 {
@@ -14,4 +15,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-}	
+}
