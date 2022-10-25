@@ -9,7 +9,8 @@ int _strlen(char *s)
 {
 	int l;
 
-	for (; *s++;)
+	l = 0;
+	for (*s = 'M'; *s <=16;)
 	{
 		l++;
 	}
